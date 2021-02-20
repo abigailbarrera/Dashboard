@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard snapshot renders 1`] = `
+<div
+  className="sc-AxjAm dAHyqm"
+>
+  <h1
+    className="sc-AxirZ jfryYJ"
+  >
+    Dashboard
+  </h1>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 mt-5"
+      >
+        <table
+          className="table table-striped table-bordered table-hover"
+        >
+          <thead>
+            <tr>
+              <th>
+                Live (sent) Campaigns
+              </th>
+              <th>
+                Amount Sent
+              </th>
+              <th>
+                Click Through Rates
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Fourth of July Promo
+              </td>
+              <td>
+                6506
+              </td>
+              <td>
+                6137
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Labor Day Sale
+              </td>
+              <td>
+                7228
+              </td>
+              <td>
+                6883
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Cotton Candy Palette Announcement
+              </td>
+              <td>
+                7246
+              </td>
+              <td>
+                7080
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 mt-5"
+      >
+        <table
+          className="table table-striped table-bordered table-hover"
+        >
+          <thead>
+            <tr>
+              <th>
+                <a
+                  href="/add"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-light btn-sm m-0"
+                    type="button"
+                  >
+                    Create a new Campaign
+                  </button>
+                </a>
+              </th>
+              <th>
+                Open (unsent) Campaigns
+              </th>
+              <th>
+                Target Segment
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a
+                  href="/edit/4"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-light btn-sm m-0"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Edit Details
+                  </button>
+                </a>
+              </td>
+              <td>
+                Fall Decor Updates
+              </td>
+              <td>
+                Decor Purchases
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a
+                  href="/edit/5"
+                  onClick={[Function]}
+                >
+                  <button
+                    className="btn btn-light btn-sm m-0"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Edit Details
+                  </button>
+                </a>
+              </td>
+              <td>
+                Great Halloween Sale
+              </td>
+              <td>
+                All Subscribers
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
